@@ -1,0 +1,241 @@
+/* .App {
+  text-align: center;
+} */
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* .App-link {
+  color: #61dafb;
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+* {
+
+  background-color: #f8f8f8;
+  font-family: 'Source Sans Pro', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+  margin: 0px;
+  overflow-y: scroll;
+}
+/* img {
+  display: flex;
+  max-width: 230px;
+  border-radius: 2%;
+}
+.img-group1 {
+  display: flex;
+  justify-content:space-around;
+  position: relative;
+  color: rgb(98, 12, 179);
+}
+.img-group2 {
+  display: flex;
+  justify-content:space-around;
+  position: relative;
+  color: rgb(98, 12, 179);
+} */
+/* .menu {
+  display: flex;
+  position: relative;
+  background-color: rgb(98, 12, 179);
+  justify-content:space-around;
+  margin-bottom: 20px;
+  padding: 10px 0 10px 0;
+  align-items:center;
+} */
+/* .logo {
+  color: rgb(112, 212, 230);
+  background-color: rgb(98, 12, 179);
+  margin: 10px 0px 15px 20px;
+  font-size: 32px;
+  align-self:center;
+  font-weight: bold;
+} */
+/* .myFilm {
+background-color: rgb(98, 12, 179);
+color: rgb(102, 86, 247);
+margin-left: 200px;
+flex-wrap: nowrap;
+}
+.shop {
+background-color: rgb(98, 12, 179);
+color: rgb(102, 86, 247);
+}
+.myBasket {
+background-color: rgb(98, 12, 179);
+color: rgb(102, 86, 247);
+}
+.search {
+  background-color: rgb(98, 12, 179);
+  color: rgb(102, 86, 247);
+  margin-right: 200px;
+}
+.personal {
+  display: flex;
+  align-items:center;
+  background-color: rgb(98, 12, 179);
+  color: rgb(112, 212, 230);
+  font-size: 22px;
+}
+.news {
+  margin: 30px 10px 30px 65px;
+  font-size: 25px;
+  color: rgb(98, 12, 179);
+  font-weight: bold;
+}
+.recsee {
+  margin: 30px 10px 30px 65px;
+  font-size: 25px;
+  color: rgb(98, 12, 179);
+  font-weight: bold;
+}
+.footer {
+  margin-top: 50px;
+}
+.myFilm:hover {
+  color: #e4e000;
+  text-decoration: none;
+ }
+.shop:hover {
+  color: #e4e000;
+  text-decoration: none;
+ }
+ .myBasket:hover {
+  color: #e4e000;
+  text-decoration: none;
+ }
+ .personal:hover {
+  color: #e4e000;
+  text-decoration: none;
+ }
+@media (min-width: 768px) and (max-width: 1400px) {
+  .menu {
+    display: flex;
+    position: relative;
+    background-color: rgb(98, 12, 179);
+    justify-content:space-around;
+    margin-bottom: 20px;
+    padding: 10px 0 10px 0;
+    align-items:center;
+  }
+  .logo {
+    color: rgb(112, 212, 230);
+    background-color: rgb(98, 12, 179);
+    font-size: 32px;
+    align-self:center;
+    font-weight: bold;
+  }
+  .myFilm {
+    background-color: rgb(98, 12, 179);
+    color: rgb(102, 86, 247);
+    margin-left: 20px;
+    flex-wrap: nowrap;
+    }
+  .shop {
+    background-color: rgb(98, 12, 179);
+    color: rgb(102, 86, 247);
+    }
+  .myBasket {
+    background-color: rgb(98, 12, 179);
+    color: rgb(102, 86, 247);
+    }
+  .search {
+    background-color: rgb(98, 12, 179);
+    color: rgb(102, 86, 247);
+    margin-right: 20px;
+  }
+  .img-group1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    color: rgb(98, 12, 179);
+  }
+  .img-group2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    color: rgb(98, 12, 179);
+  }
+  .img-group2 > div {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 768px){
+  .menu {
+    display: flex;
+    position: relative;
+    background-color: rgb(98, 12, 179);
+    justify-content:space-around;
+    margin-bottom: 20px;
+    padding: 10px 0 10px 0;
+    align-items:center;
+    flex-wrap: wrap;
+  }
+  .logo {
+    width: 100%;
+    color: rgb(112, 212, 230);
+    background-color: rgb(98, 12, 179);
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 29%;
+  }
+  .myFilm {
+    background-color: rgb(98, 12, 179);
+    color: rgb(102, 86, 247);
+    margin-left: 17%;
+    flex-wrap: nowrap;
+    }
+  .search {
+    background-color: rgb(98, 12, 179);
+    color: rgb(102, 86, 247);
+    margin-right: 20%;
+  }
+  .personal {
+    display: flex;
+    align-items:center;
+    background-color: rgb(98, 12, 179);
+    color: rgb(112, 212, 230);
+    font-size: 0.001px;
+  }
+  .img-group1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    color: rgb(98, 12, 179);
+    flex-basis: 25%;
+  }
+  .img-group1 > div {
+    margin-bottom: 10px;
+  }
+  .img-group2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    color: rgb(98, 12, 179);
+    flex-basis: 25%;
+  }
+  .img-group2 > div {
+    margin-bottom: 10px;
+  }
+} */

@@ -1,0 +1,11 @@
+.cardList {
+  display: flex;
+  justify-content:space-around;
+  position: absolute;
+  color: #3F3F3F;
+  flex-wrap: wrap;
+  align-items: left;
+  width: 1044px;
+  left: 400px;
+  top: 81px;
+}
